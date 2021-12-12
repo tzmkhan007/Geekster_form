@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+input,select,textarea{
+    display: block;
+    margin:10px
+}
+input{
+    padding: 5px;
+    /* width: 200px; */
+    border-radius: 3px;
+    border: 1px solid rgb(173, 163, 163);
+}
+.main_container
+{
+    display: block;
+    /* border: 2px solid red; */
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    margin: auto;
+    background-image: url("form_bg1.jpg");
+}
+.head{
+    display: flex;
+    justify-content: center;
+    /* border: 2px solid black; */
+}
+h2{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+h4{
+    font-family: 'Roboto', sans-serif;
+    margin: 0.5em 4px;
+}
+.inline{
+    display: inline-block;
+}
+.form-container{
+    /* border: 2px solid black; */
+    display: inline-block;
+    margin-left: 150px;
+    
+    padding: 5px;
+    border-radius: 5px;
+    background-color: transparent
+}
+select{
+    padding: 5px;
+    border-radius: 3px;
+    border: 1px solid rgb(173, 163, 163);
+
+}
+.pointer{
+    cursor: pointer;
+    padding: 5px;
+}

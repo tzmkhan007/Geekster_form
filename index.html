@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="main_container">
+      <div class="head">
+        <h2>Admission Form for Geekster</h2>
+      </div>
+      <div class="form-container">
+        <h4>Personal Info</h4>
+        <form>
+        <input
+          type="text"
+          class="inline"
+          name="f_name"
+          placeholder="First Name"
+          autocomplete="on"
+      />
+      <input type="text" class="inline" name="l_name" placeholder="Last Name" />
+      <br />
+      <input type="email" class="inline" name="mail" placeholder="Email Id" />
+      <input
+        type="tel"
+        class="inline"
+        name="phone"
+        placeholder="Phone Number"
+        required
+        pattern="[0-9]{4}-[0-9]{3}-[0-9]{3}"
+      />
+      <br />
+      <input type="date" class="inline" name="date_of_birth" max="2022-01-01" />
+      <select name="gender" class="inline">
+        <option selected disabled>Select Gender</option>
+        <option>Male</option>
+        <option>Female</option>
+        <option>Other</option>
+      </select>
+
+      <textarea name="address" placeholder="Address" autocomplete="off"></textarea>
+      <h4>Education info</h4>
+      <select name="degree">
+        <optgroup label="Bachelors">
+          <option selected disabled>Select Degree</option>
+          <option>B.Tech</option>
+          <option>B.E</option>
+          <option>B.Sc.</option>
+        </optgroup>
+      </select>
+      <input type="text" name="college" placeholder="College Name" />
+      <input type="number" placeholder="Year of Graduation" />
+      <input type="number" name="percentage" placeholder="Percentage" />
+      <input type="file" class="pointer"/>
+      <h4> Course Details</h4>
+      <input class="inline" type="radio" name="course_type"/>Fundamentals
+      <input class="inline" type="radio" name="course_type"/>Advanced
+      <br>
+      <input class="inline" type="checkbox" name="course_name"/>Web
+      <input class="inline" type="checkbox" name="course_name"/>DSA
+      <hr />
+      <input class="inline pointer" type="submit" value="Apply for Admission" />
+      <input class="inline pointer" type="reset" />
+    </form>
+</div>
+</div>
+  </body>
+</html>
